@@ -1,9 +1,13 @@
 Module.register("MMM-Notion", {
 	getDom: function () {
 		const wrapper = document.createElement("div");
-		wrapper.id = "tableContainer";
+		wrapper.className = "tableContainer";
 		wrapper.innerHTML = this.config.text;
 		return wrapper;
+	},
+
+	getStyles: function () {
+		return ["notion.css"]
 	},
 
 	start: function () {

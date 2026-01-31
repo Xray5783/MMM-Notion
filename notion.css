@@ -1,0 +1,36 @@
+/* Scope everything to the MMM-Notion module */
+.MMM-Notion {
+  text-align: center; /* centers inline / inline-block children */
+  color: #cacaca;
+}
+
+/* Your table container */
+.MMM-Notion .tableContainer {
+  width: 30vw;
+  height: 33vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  margin: 0 auto;     /* THIS centers the container */
+  text-align: left;   /* reset so table text isn't centered */
+}
+
+/* Table itself */
+.MMM-Notion .tableContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Cells */
+.MMM-Notion .tableContainer th,
+.MMM-Notion .tableContainer td {
+  padding: 6px;
+}
+
+/* Sticky header */
+.MMM-Notion .tableContainer thead th {
+  position: sticky;
+  top: 0;
+  background: rgba(75, 75, 75, 0.9);
+  z-index: 1;
+}
