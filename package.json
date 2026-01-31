@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Xray5783/MMM-Notion/issues"
   },
-  "homepage": "https://github.com/Xray5783/MMM-Notion#readme"
+  "homepage": "https://github.com/Xray5783/MMM-Notion#readme",
+  "dependencies": {
+    "@notionhq/client": "^5.9.0"
+  }
 }
